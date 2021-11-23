@@ -11,8 +11,8 @@ public class Main {
 		System.out.print("Enter base: ");
 		int base = in.nextInt();
 		System.out.print("Enter height: ");
-		int height= in.nextInt();
-		
+		int height = in.nextInt();
+
 		Rettangolo rectangle = new Rettangolo(base, height);
 		System.out.println("Perimeter: " + rectangle.perimeterCalculator());
 		System.out.println("Area: " + rectangle.areaCalculator());
