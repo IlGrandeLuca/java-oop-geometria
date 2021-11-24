@@ -16,6 +16,6 @@ public class Rettangolo {
 	}
 
 	int perimeterCalculator() {
-		return (base * 2) + (height * 2);
+		return (base + height) * 2;
 	}
 }

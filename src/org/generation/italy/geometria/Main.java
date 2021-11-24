@@ -16,6 +16,7 @@ public class Main {
 		Rettangolo rectangle = new Rettangolo(base, height);
 		System.out.println("Perimeter: " + rectangle.perimeterCalculator());
 		System.out.println("Area: " + rectangle.areaCalculator());
+		in.close();
 	}
 
 }
